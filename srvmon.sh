@@ -15,17 +15,18 @@
 
 #array names must not contain spaces, only a-ZA-Z.
 declare -A urls # do not remove this line
-urls[dilbert.com]="https://dilbert.com"
-urls[gist.github.com]="https://gist.github.com"
-urls[github.com]="https://github.com"
-urls[lobste.rs]="https://lobste.rs"
-urls[raymii.org]="https://raymii.org"
-urls[treesforlife.org.uk]="https://treesforlife.org.uk"
-urls[tweakers.net]="https://tweakers.net"
-urls[www.buienradar.nl]="https://www.buienradar.nl"
-urls[www.google.com]="https://www.google.com"
-urls[www.smbc-comics.com]="https://www.smbc-comics.com"
-urls[xkcd.com]="https://xkcd.com"
+urls[printedmint.com]="https://printedmint.com"
+urls[app.printedmint.com]="https://app.printedmint.com"
+urls[eic.printedmint.com]="https://eic.printedmint.com/login"
+urls[sia.printedmint.com]="https://sia.printedmint.com/login"
+urls[img.printedmint.com]="https://img.printedmint.com/sauli/2/upload/cpvuq2bgylxejym5s2ry.png"
+# urls[raymii.org]="https://raymii.org"
+# urls[treesforlife.org.uk]="https://treesforlife.org.uk"
+# urls[tweakers.net]="https://tweakers.net"
+# urls[www.buienradar.nl]="https://www.buienradar.nl"
+# urls[www.google.com]="https://www.google.com"
+# urls[www.smbc-comics.com]="https://www.smbc-comics.com"
+# urls[xkcd.com]="https://xkcd.com"
 
 # The default status code. Can be overridden per URL lower in the script.
 defaultExpectedStatusCode=200
